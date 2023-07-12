@@ -1,4 +1,4 @@
-Step 1: Download the Installer
+Step 1: Download the Installer https://nodejs.org/en/download
 
 Step 2: cmd=> npm install -g json-server
 
