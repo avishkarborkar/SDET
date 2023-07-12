@@ -1,1 +1,9 @@
+Step 1: Download the Installer
 
+Step 2: cmd=> npm install -g json-server
+
+Step 3: Create JSON file, Also provided in the branch.
+
+Step 4: cmd=> json-server students.json
+
+Step 4: Mention the generated localhost address in postman.
