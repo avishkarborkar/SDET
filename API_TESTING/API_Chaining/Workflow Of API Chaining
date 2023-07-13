@@ -1,0 +1,22 @@
+Step 1: Created POST, GET, PUT, DELETE 
+
+Step 2: Added Collection Level Authentication Token, And inherited them in all requests.
+
+Step3: Setting up random Environment variables
+
+var random = Math.random().toString(36).substr(2);
+var useremail = "avi"+random+"@gmail.com";
+var username = "avi"+random;
+pm.environment.set("email_env", useremail);
+pm.environment.set("name_env", username);
+
+step 5: Dynamically addressing the JSON fields.
+{
+    "name": "{{name_env}}",
+    "gender": "Female",
+    "email": "{{email_env}}",
+    "status": "active"
+}
+
+step 6: Run Collection
+
