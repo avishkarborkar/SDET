@@ -1,1 +1,11 @@
+Step 1: In terminal cmd=> sh jmeter.sh
 
+Step 2: Create Test Plan
+
+Step 3: Add Thread Group, Specify the number of threads
+
+Step 4: Add HTTP request, Mention URL of website we want to test.
+
+Step 5: Add Listeners
+
+Step 6: Add Response Assertions
